@@ -2,6 +2,10 @@ $(function(){
     $('.close').click(function(){
         $('#top_popup img').fadeOut(500);
     })
+    $('.all_nav').click(function(){
+        $('#nav_pop').fadeIn();
+    })
+
     var slide;
     slide = setInterval(function(){
         $('.notice_list > li:nth-child(1)').animate({
