@@ -3,12 +3,12 @@ $(function(){
         lazyLoad: 'ondemand', // ondemand progressive anticipated
         infinite: true,
         dots: true,
-        arrows: false
+        arrows: true
       });
       $(".regular").slick({
         dots: false,
         infinite: true,
-        arrows: false,
+        arrows: true,
         slidesToShow: 3,
         slidesToScroll: 1
       });

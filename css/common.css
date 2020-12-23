@@ -23,6 +23,29 @@ button{outline:0}
 /************************ 메인화면, 서브화면 공통영역 ***************************/
 #wrap{width: 100%;min-width: 1024px; overflow: hidden;}
 .inner{min-width: 1024px; max-width: 1280px; margin: 0 auto;}
+
+#nav_pop{position:fixed;width:100%;min-width:1024px;height:100%;overflow: auto;
+      background:linear-gradient(to bottom right,#815b4c,#ECDBD4);z-index:999999; }
+#nav_pop .navpop_inner{width:1024px;margin:0 auto;}
+#nav_pop #nav_logo{position: relative; width: 100px; height: 40px;
+                   margin-top: 30px; margin-bottom: 60px;}
+#nav_pop #nav_logo img{width: 100%;}
+#nav_pop #nav_logo .nav_close{position:absolute;top:0;right:0; border: none;}
+#nav_pop #nav_logo .nav_close::before{content: ''; display: block;
+      width: 45px; height: 2px; background-color:#050100;
+      transform: rotate(45deg);
+      position: absolute; top: 30px; right: -1000px;}
+#nav_pop #nav_logo .nav_close::after{content: ''; display: block;
+            width: 45px; height: 2px; background-color:#050100;
+            transform: rotate(-45deg);
+            position: absolute; top: 30px; right: -1000px;}
+#nav_pop .depth1 > li {width:25%;float:left;margin-bottom: 100px;
+                      }
+#nav_pop .depth1 > li > a {font-size: 1.1rem;margin-bottom: 10px;display: block;
+                           color: #64453e; margin-left: 30px;}
+#nav_pop .depth2 li{font-size: 0.9rem; color: #dac3bc; opacity: 0.8;
+      margin-left: 30px;}   
+
 #header .top_icon{float: right;
                   width: 256px; height: 74px;
                   }
@@ -115,7 +138,7 @@ button{outline:0}
                 padding-right: 20px;padding-left: 20px;}
 #footer .list a:first-child{padding-left:0;}
 #footer .list a:last-child{border-right: none;}
-#footer button{border: none;}
+#footer button{border: none; cursor: pointer;}
 #footer .insta{width: 60px; height: 60px;
                background: url(../images/icon_insta.png)no-repeat;
                background-position: 0 0;

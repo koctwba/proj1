@@ -20,6 +20,53 @@
 
 <body >
 <div id="wrap">
+  <div id="nav_pop">
+    <div class="navpop_inner">
+      <h1 id="nav_logo"><img src='images/logo.png' alt="로고"><button class="nav_close"></button></h1>
+      <ul class="depth1" >
+       <li><a href="#">스타피부과소개</a>
+             <ul class="depth2">
+              <li><a href="#">스타피부과이념</a>
+              </li>
+              <li><a href="#">연혁</a>
+              </li>
+              <li><a href="#">의료진소개</a>
+              </li>
+              <li><a href="#">채용안내</a>
+              </li>
+              <li><a href="#">시설소개</a>
+              </li>
+           </ul>
+       </li>
+       <li><a href="#">커뮤니티</a>
+            <ul class="depth2">
+             <li><a href="#">스타소식</a>
+             </li>
+             <li><a href="#">공지사항</a>
+             </li>
+             <li><a href="#">시술후기</a>
+             </li>
+             <li><a href="#">전후사진</a>
+             </li>
+          </ul>
+      </li>
+      <li><a href="#">상담예약</a>
+      </li>
+      <li><a href="#">레이저클리닉</a>
+            <ul class="depth2">
+             <li><a href="#">여드름</a>
+             </li>
+             <li><a href="#">흉터모공</a>
+             </li>
+          </ul>
+      </li>
+      <li><a href="#">피부클리닉</a>
+      </li>
+      <li><a href="#">스페셜클리닉</a>
+      </li>
+     </ul>   
+    </div>
+ </div>
   <div id="top_popup">
     <a href="#"><img src="images/popup_banner.jpg" alt="팝업이미지"></a>
     <button class="close sound_only">닫기</button>
@@ -98,13 +145,39 @@
         <img src="images/mainslide_banner.jpg" alt="배너이미지">
       </div>
     </section>
+    
   </header>
   <section id="sec2">
     <div class="inner">
       <div class="notice">
-      
+      <p>공지사항</p>
+      <ul class="notice_list">
+        <li><span>12.23</span>스타피부과 홈페이지가 리뉴얼되었습니다.</li>
+        <li><span>11.27</span>스타피부과 진료시간 변경 안내</li>
+        <li><span>11.09</span>스타피부과 겨울방학 맞이 이벤트 안내</li>
+      </ul>
+    </div>
+    <div class="purp">
+      <p>인기검색어</p>
+      <ul class="notice_list">
+        <li>1.여드름 치료</li>
+        <li>2.주름 리프팅</li>
+        <li>3.미백 효과</li>
+      </ul>
+    </div>
+      <!--<div class="notice">
+        <p class="sec2_title">공지사항</p>
+        <div>
+          <p class="sec2_cont">스타피부과 홈페이지가 리뉴얼되었습니다.</p>
+          <p class="sec2_cont">스타피부과 진료시간 변경 안내</p>
+          <p class="sec2_cont">스타피부과 겨울방학 맞이 이벤트 안내</p>
+         </div>
       </div>
-      <div class="purp"></div>
+      <div class="purp">
+        <p class="sec2_title">최근검색어</p>
+        <p class="sec2_cont">
+          1. 여드름        2. 미백        3. 주름        </p>
+      </div>-->
     </div>
   </section>
   <section id="sec3">
@@ -114,28 +187,26 @@
      <hr>
      <div>
        <a href="#">
-        
         <p class="clinic_img"><img src="images/clinic 1.jpg"></p>
-        <p class="clinic_txt">반사판이 필요없는 피부<br>
-               <span class="bold">스타 V레이저</span></p>
+        <p class="clinic_txt">반사판이 필요없는 피부</p>
+               <p class="clinic_txt_b">스타 V레이저</p>
        <button>바로가기→</button>
       </a>
      </div>
      <div>
       <a href="#">
-        
         <p class="clinic_img"><img src="images/clinic 2.jpg"></p>
-        <p class="clinic_txt">실력에 더해진 섬세하고 세련된 디자인<br>
-          <span class="bold">스타 프리미엄 필러 3</span></p>
+        <p class="clinic_txt white">실력에 더해진 섬세하고 세련된 디자인</p>
+          <p class="clinic_txt_b white">스타 프리미엄 필러 3</p>
        <button>바로가기→</button>
       </a>
      </div>
      <div>
       <a href="#">
-        
         <p class="clinic_img"><img src="images/clinic 3.jpg"></p>
-        <p class="clinic_txt">볼륨 소실없이 자연스러운<br>
-          <span class="bold">스타 울쎄라 2</span></p>
+        <p class="clinic_txt white">볼륨 소실없이 자연스러운</p>
+          <p class="clinic_txt_b white">스타 울쎄라 2</p>
+
        <button>바로가기→</button>
       </a>
      </div>
@@ -150,7 +221,7 @@
        <a href="#">
          <p class="ad_img"><img src="images/clinic_ad 1.jpg" alt="클리닉이미지"></p>
          <p class="ad_txt">여드름의 근본적인 원인을 치료하는<br>
-          <span class="bold">아그네스</span></p>
+          <p class="ad_txt_b">아그네스</p>
        </a>
      </div>
      <div class="ad_right">
@@ -171,8 +242,6 @@
         <h2>치료전후사진</h2>
         <h3>최고의 기술과 서비스로 아름다운 세상을 만들어갑니다.</h3>
         <hr>
-        <button class="arrows_l"></button>
-        <button class="arrows_r"></button>
         <section class="regular slider">
           <div>
             <img src="images/before_after 1.jpg">
