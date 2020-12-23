@@ -1,14 +1,13 @@
 @charset "utf-8";
-
-/*googleips 웹폰트 css 파일 불러오기*/
-@import url(https://fonts.googleapis.com/css?family=Galada|Nanum+Gothic|Nanum+Myeongjo);
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
 
+
 * {margin:0; padding:0;}
-html{font-size: 16px;}
+html{font-size: 16px;
+     font-family: 'Noto Sans KR', sans-serif;}
 body{ font-size:15px;
       color:#6f6f6f;
-      font-family: 'Nanum Gothic', sans-serif }
+      font-family: 'Noto Sans KR', sans-serif;}
 ul, ol, li{list-style-type:none}
 img, fieldset{border:none;vertical-align: middle}/*vertical-align 은 img, fieldset 에만 먹힘 p에는 안먹힘*/
 hr {clear:both;border:none}
@@ -85,7 +84,7 @@ button{outline:0}
                  cursor: pointer;}
 /*nav*/
 #header .inner{position: relative;}
-#nav4 .depth1{float: left; font-size: 15px;}
+#nav4 .depth1{float: left; font-size: 1rem; color: #240A00;}
 #nav4 .depth1 > li {float: left; padding: 0 10px; padding-top: 5px;}
 #nav4 .depth1 > li:last-child{margin-right: 50px;}
 #nav4 .depth1 > li > a {display: block; 
