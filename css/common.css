@@ -21,6 +21,29 @@ button{outline:0}
 
 /************************ 메인화면, 서브화면 공통영역 ***************************/
 #wrap{width: 100%;min-width: 1024px; overflow: hidden;}
+#quickmenu{width: 60px; height: 300px; 
+           position: fixed; top: 50px; right: 5px; z-index: 99999;}
+#quickmenu .home{background: url(../images/quick_1.png) no-repeat;cursor: pointer;
+                 background-position: 0 0;
+                 background-size: contain; width: 60px; height: 60px;
+                 margin-bottom: 20px;}
+#quickmenu .my{background: url(../images/quick_2.png) no-repeat;cursor: pointer;
+                  background-position: 0 0;
+                  background-size: contain; width: 60px; height: 60px;
+                  margin-bottom: 20px;}
+#quickmenu .ask{background: url(../images/quick_3.png) no-repeat;cursor: pointer;
+                  background-position: 0 0;
+                  background-size: contain; width: 60px; height: 60px;
+                  margin-bottom: 20px;}
+#quickmenu .k_talk{background: url(../images/quick_4.png) no-repeat;cursor: pointer;
+                 background-position: 0 0;
+                 background-size: contain; width: 60px; height: 60px;
+                 margin-bottom: 20px;}
+#quickmenu .top{background-color: #240A00; cursor: pointer;
+                border-radius: 15px;text-align: center;
+                padding-bottom: 5px;}                           
+#quickmenu .top a{ font-size: 11px; color: #fff;}
+
 .inner{min-width: 1024px; max-width: 1280px; margin: 0 auto;}
 
 #nav_pop{position:fixed;width:100%;min-width:1024px;height:100%;overflow: auto;

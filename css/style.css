@@ -27,16 +27,24 @@ h3{font-size: 0.937rem; display: inline-block; font-weight: normal;
 #sec2 .notice,#sec2 .purp{width: 500px; height: 100px;
             /*width:calc((100% - 50px)/2)*/
             background-color: #6A5852; opacity: 0.7;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
             position: absolute; bottom: 3px;
             cursor: pointer; overflow: hidden;}
 #sec2 .notice{left: 0;}
 #sec2 p{font-weight: 500;font-size: 0.8rem; margin-left: 25px;
   color: #fff; margin-top: 25px;}
-#sec2 .notice_list {line-height:4rem;
-  position:relative; top: 0; left: 0;}
-#sec2 .notice_list li,#sec2 .purp li{opacity: 0.8;font-size: 0.75rem;color: #fff;
+#sec2 .notice_list {line-height:3.5rem;
+  position:relative; top: 0; left: 0;
+  overflow: hidden; height: 4rem;}
+#sec2 .notice_list li{overflow: hidden; height: 40px;}
+#sec2 .notice_list li,#sec2 .purp li{opacity: 0.8;font-size: 0.75rem;color: #e4d7d3;
                       margin-left: 25px;}
-#sec2 .notice_list span{font-size: 0.75rem; margin-right: 10px;}
+#sec2 .notice_list span{display: inline-block;
+                        font-size: 0.75rem; margin-right: 10px; color: #270a00;
+                        background-color: rgb(207, 190, 190);
+                        padding: 0 5px; line-height: 2em;
+                        border-radius: 10px; opacity: 1;}
 /*#sec2 .notice div{height: 100px;}
 #sec2 p{color: #FFFFFF; margin-left: 25px;}
 #sec2 .sec2_title{font-weight: 500;font-size: 0.8rem; margin-top: 25px;}
